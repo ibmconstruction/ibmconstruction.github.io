@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy – EMI Calculator</title>
+    <style>
+        /* -------------------------------------------------
+           Simple, clean styling – works on all devices
+           ------------------------------------------------- */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background:#f9f9f9;
+            color:#333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background:#fff;
+            padding:2rem;
+            box-shadow:0 2px 8px rgba(0,0,0,.1);
+            border-radius:4px;
+        }
+        h1, h2 {
+            color:#222;
+        }
+        h1 {
+            font-size:1.8rem;
+            margin-bottom:.5rem;
+        }
+        h2 {
+            font-size:1.4rem;
+            margin-top:1.5rem;
+        }
+        p {
+            margin:0.8rem 0;
+        }
+        ul {
+            margin:0.8rem 0 0.8rem 1.5rem;
+        }
+        a {
+            color:#0066cc;
+            text-decoration:none;
+        }
+        a:hover {
+            text-decoration:underline;
+        }
+        footer {
+            margin-top:2rem;
+            font-size:.85rem;
+            color:#777;
+        }
+        /* -------------------------------------------------
+           Small script to expand/collapse sections (optional)
+           ------------------------------------------------- */
+        .toggle {
+            cursor:pointer;
+            color:#0066cc;
+        }
+        .content {
+            display:none;
+            margin-top:.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <p><strong>App name:</strong> EMI Calculator</p>
+    <p><strong>Developer / Company:</strong> IBM PRO CONSTRUCTION</p>
+    <p><strong>Effective date:</strong> <span id="date"></span></p>
+
+    <h2 class="toggle">1. Introduction</h2>
+    <div class="content">
+        <p>This Privacy Policy explains how IBM PRO CONSTRUCTION (“we”, “us”, or “our”) collects, uses, stores, and shares personal information when you use the EMI Calculator mobile application (the “App”). By installing or using the App, you agree to the practices described herein.</p>
+    </div>
+
+    <h2 class="toggle">2. Information We Collect</h2>
+    <div class="content">
+        <ul>
+            <li><strong>Device & technical data:</strong> IP address, device model, operating system version, unique identifiers (e.g., Android Advertising ID), and crash logs. Used solely for analytics, debugging, and improving the App.</li>
+            <li><strong>Usage data:</strong> Interactions with the calculator (e.g., loan amount, interest rate, tenure). This data is processed locally on the device and never transmitted to our servers unless you explicitly choose to export/share the results.</li>
+            <li><strong>Optional user‑provided data:</strong> If you voluntarily contact us via email or the in‑app feedback form, we may collect your name and email address to respond to your inquiry.</li>
+        </ul>
+    </div>
+
+    <h2 class="toggle">3. How We Use Your Information</h2>
+    <div class="content">
+        <ul>
+            <li>Provide and maintain the core functionality of the EMI Calculator.</li>
+            <li>Diagnose crashes, errors, and performance issues.</li>
+            <li>Generate aggregated, non‑identifiable usage statistics for internal analytics.</li>
+            <li>Respond to user support requests (only when you initiate contact).</li>
+        </ul>
+    </div>
+
+    <h2 class="toggle">4. Sharing & Disclosure</h2>
+    <div class="content">
+        <p>We do not sell, rent, or otherwise share your personal information with third parties for marketing purposes. We may disclose data to:</p>
+        <ul>
+            <li>Service providers that help us operate the App (e.g., crash‑reporting tools). They are contractually bound to keep data confidential.</li>
+            <li>Law enforcement or regulatory bodies if required by applicable law.</li>
+        </ul>
+    </div>
+
+    <h2 class="toggle">5. Data Retention & Deletion</h2>
+    <div class="content">
+        <p>All data collected automatically (device identifiers, usage logs) is retained for a maximum of 90 days, after which it is anonymized or deleted. Any data you voluntarily submit (e.g., feedback) is kept until you request its removal.</p>
+    </div>
+
+    <h2 class="toggle">6. Security</h2>
+    <div class="content">
+        <p>We implement reasonable administrative, technical, and physical safeguards to protect your information. However, no method of transmission over the internet is 100 % secure; therefore, we cannot guarantee absolute security.</p>
+    </div>
+
+    <h2 class="toggle">7. Children’s Privacy</h2>
+    <div class="content">
+        <p>The App is not directed at children under the age of 13, and we do not knowingly collect personal data from anyone in that age group. If you become aware that a child has provided us personal information, please contact us so we can delete it promptly.</p>
+    </div>
+
+    <h2 class="toggle">8. Your Rights & Choices</h2>
+    <div class="content">
+        <ul>
+            <li><strong>Access & correction:</strong> You may request a copy of any personal data we hold about you and ask for corrections.</li>
+            <li><strong>Deletion:</strong> You can request deletion of any voluntarily submitted data by contacting us.</li>
+            <li><strong>Opt‑out of analytics:</strong> On Android, you can disable “Google Play Services” analytics for this app via your device settings.</li>
+        </ul>
+    </div>
+
+    <h2 class="toggle">9. Changes to This Policy</h2>
+    <div class="content">
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted within the App and will become effective upon posting. Continued use of the App after such changes constitutes acceptance of the revised policy.</p>
+    </div>
+
+    <h2 class="toggle">10. Contact Us</h2>
+    <div class="content">
+        <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+        <p>Email: <a href="mailto:support@ibmproconstruction.com">support@ibmproconstruction.com</a></p>
+        <p>Address: IBM PRO CONSTRUCTION, 1234 Builder Lane, Cityville, Country</p>
+    </div>
+
+    <footer>
+        © <script>document.write(new Date().getFullYear());</script> IBM PRO CONSTRUCTION. All rights reserved.
+    </footer>
+</div>
+
+<script>
+    // -------------------------------------------------
+    // Simple toggle for section visibility (optional)
+    // -------------------------------------------------
+    document.querySelectorAll('.toggle').forEach(function (header) {
+        header.addEventListener('click', function () {
+            const content = this.nextElementSibling;
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
+            } else {
+                content.style.display = 'block';
+            }
+        });
+    });
+
+    // Insert today's date for the "Effective date" field
+    document.getElementById('date').textContent = new Date().toLocaleDateString();
+</script>
+</body>
+</html>
